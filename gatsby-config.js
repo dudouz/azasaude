@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `AZA Saúde`,
+    description: `Consultoria jurídica especializada no setor da saúde, licitações, contratos públicos e processos jurídicos.`,
+    author: `@eduardoiotti`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -16,7 +16,24 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
+      resolve: `gatsby-plugin-anchor-links`,
+      options: {
+        offset: -100,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `merriweather\:300,400,900`,
+          `montserrat\:300,400,700`, // you can also specify font weights and styles
+        ],
+        display: "swap",
+      },
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
+      resolve: `gatsby-plugin-styled-components`,
       options: {
         name: `gatsby-starter-default`,
         short_name: `starter`,
@@ -24,7 +41,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/favicon-aza.png`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
