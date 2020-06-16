@@ -1,5 +1,6 @@
 import styled from "styled-components"
 export const Wrapper = styled.section`
+  padding: 10vh 0;
   height: 100vh;
   background: var(--highlightDark);
   @media only screen and (max-width: 768px) {

@@ -1,6 +1,6 @@
 import styled from "styled-components"
 export const Wrapper = styled.footer`
-  padding-bottom: 10vh;
+  padding: 10vh 0;
 `
 export const Container = styled.div`
   color: var(--highlightDark);

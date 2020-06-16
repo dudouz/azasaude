@@ -20,6 +20,8 @@ export const Container = styled.div`
   }
   &:last-child {
     margin-top: 15vh;
+    align-items: center;
+    justify-content: center;
   }
   @media only screen and (max-width: 768px) {
     flex-direction: column;
@@ -76,4 +78,8 @@ export const Vantage = styled.div`
     }
   }
 `
-export const CTARow = styled.div``
+export const CTARow = styled.div`
+  display: flex;
+  text-align: center;
+  align-self: center;
+`

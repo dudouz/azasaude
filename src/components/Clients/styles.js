@@ -1,6 +1,6 @@
 import styled from "styled-components"
 export const Wrapper = styled.section`
-  padding: 3rem 0;
+  padding: 10vh 0;
   height: 50vh;
   background: var(--texts);
 `

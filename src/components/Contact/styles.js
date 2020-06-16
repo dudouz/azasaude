@@ -19,6 +19,9 @@ export const Container = styled.div`
   p {
     line-height: 175%;
     font-size: 1.25rem;
+    @media only screen and (max-width: 768px) {
+      font-size: 1rem;
+    }
   }
   &:last-child {
     margin-top: 15vh;
@@ -49,6 +52,11 @@ export const Column = styled.div`
 `
 
 export const Form = styled.form`
+  p {
+    margin-bottom: 1.75rem;
+    font-size: 0.8rem;
+    line-height: 200%;
+  }
   padding: 2rem;
   border: solid 1px var(--texts);
   display: flex;

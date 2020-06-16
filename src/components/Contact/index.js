@@ -21,13 +21,13 @@ const Contact = () => {
           </S.Address>
         </S.Column>
         <S.Column>
-          <p>
-            Para saber mais sobre nossos serviços e sanar outras dúvidas
-            relacionadas a casos específicos e outras questões de atendimento,
-            você pode utilizar o formulário a seguir para nos enviar uma
-            mensagem. Responderemos o mais breve possível.
-          </p>
           <S.Form action="">
+            <p>
+              Para saber mais sobre nossos serviços e sanar outras dúvidas
+              relacionadas a casos específicos e outras questões de atendimento,
+              você pode utilizar o formulário a seguir para nos enviar uma
+              mensagem. Responderemos o mais breve possível.
+            </p>
             <label htmlFor="nome">
               <span>Seu nome</span>
               <input name="nome" type="text" />
