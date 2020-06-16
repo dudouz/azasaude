@@ -1,6 +1,6 @@
 import styled from "styled-components"
 export const Wrapper = styled.section`
-  height: 100vh;
+  min-height: 100vh;
   @media only screen and (max-width: 768px) {
     height: auto;
     padding: 0 1rem;
